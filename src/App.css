@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito";
+  background-color: #5d8fc9;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 150px auto;
+  width: 400px;
+  height: 350px;
+  background-color: #fff;
+}
+
+.form-container .step {
+  position: absolute;
+  top: 250px;
+  color: rgb(71, 71, 71);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  color: black;
+  font-size: 2rem;
+}
+
+.form > button,
+input {
+  padding: 5px 5px;
+  font-weight: bold;
+  border-color: #0a66c2;
+  border-radius: 100px;
+  width: 100%;
+  margin: 5px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  text-align: center;
+  outline: none !important;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #b8cde4;
+}
+
+.form > button {
+  background-color: #0a66c2;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #fff;
+}
