@@ -27,9 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">
-        Login form using Overmind in React with Bootstrap
-      </h1>
+      <h1 className="title">Login form using Overmind in React</h1>
       <div className="form-container">
         <p className="step">Step {state.currentStep}</p>
         <form className="form">
